@@ -333,6 +333,7 @@ print 'Column widths adjusted.'
 
 print 'Excel preparation completed.'
 
+# Column styles dictionary
 style_dict = {1: style_2, 4: style_5}
 for i in [2, 8, 10]:
     style_dict[i] = style_3
